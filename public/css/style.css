@@ -1,0 +1,10 @@
+.c-item {
+  height: 10%
+  width: 10%;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: contain
+ ;
+}
