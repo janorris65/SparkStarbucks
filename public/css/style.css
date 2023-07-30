@@ -8,3 +8,11 @@
   object-fit: contain
  ;
 }
+.coffeeimage{
+  background-image: url('../images/Cardinal2.png');
+  background-size: 100%;
+}
+.coffeeimageT {
+  background-image: url('../images/Cardinal1.png');
+  background-size: 100%;
+}
