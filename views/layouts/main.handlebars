@@ -19,13 +19,29 @@
 
   <body>
 
-    <header class="bg-success bg-gradient header text-center">
+    <header class="bg-success bg-gradient header dropdown-center text-center">
       <button
-        class="btn btn-secondary border-success border-4"
+        class="btn btn-secondary border-success dropdown-toggle border-4"
+        type="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        <h1 style="font-family: Noto Serif;">Our Startup Community</h1>
+      </button>
+      <ul class="dropdown-menu text-center">
+        <li><a class="dropdown-item" href="/"><h3>Home</h3></a></li>
+        <li><a
+            class="dropdown-item"
+            href="https://sparkcoworking.com/st-louis/"
+          ><h3>Spark Stl</h3></a></li>
+
+      </ul>
+      {{! <button
+        class="btn btn-secondary border-success border-4 dropdown-toggle"
         onclick="window.location.href='/'"
       >
         <h1 style="font-family: Noto Serif;">Supporting Our Startup Community</h1>
-      </button>
+      </button> }}
 
     </header>
     <main>
