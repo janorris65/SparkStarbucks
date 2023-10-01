@@ -23,6 +23,14 @@ router.get("/Affiliate", async (req, res) => {
   }
   // Loads homepage (search input)
 });
+router.get("/Beats", async (req, res) => {
+  try {
+    res.render("beatsartdance");
+  } catch (err) {
+    res.status(500).json(err);
+  }
+  // Loads homepage (search input)
+});
 router.get("/Scroll", async (req, res) => {
   try {
     res.render("scroll");
